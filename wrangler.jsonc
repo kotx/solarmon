@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "solarmon",
+	"main": "src/index.tsx",
+	"compatibility_date": "2025-07-06",
+	"r2_buckets": [
+		{
+			"binding": "R2_BUCKET",
+			"bucket_name": "solarmon",
+			"preview_bucket_name": "solarmon-test"
+		}
+	],
+	"assets": {
+		"directory": "public"
+	}
+}
